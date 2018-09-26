@@ -43,15 +43,18 @@ int main()
 	}
 	cout<<"Longest time in the hospital:"<<endl;
 	int max_days=patients[0].days;
-	for(int i=0;i<n;i++)
+	int k=0;
+	for(int i=1;i<n;i++)
 	{
 		if(patients[i].days>max_days)
 		{
 			max_days=patients[i].days;
-			cout<<"Name="<<patients[i].name<<endl;
-			cout<<"Diagnose="<<patients[i].diagnose<<endl;
-			cout<<"Days="<<patients[i].days<<endl;
+			k=i;
+			
 		}
+			cout<<"Name="<<patients[k].name<<endl;
+			cout<<"Diagnose="<<patients[k].diagnose<<endl;
+			cout<<"Days="<<patients[k].days<<endl;
 	}
 	system("pause");
 	return 0;
