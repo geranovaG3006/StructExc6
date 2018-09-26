@@ -30,7 +30,7 @@ int main()
 	}
     
     string indicated_diagnose;
-    cout<<"Indicated diagnose: ";
+    cout<<"Enter diagnose: ";
     cin>>indicated_diagnose;
     cout<<"Patients by indicated diagnose:"<<endl;
 	for(int i=0;i<n;i++)
