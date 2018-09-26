@@ -22,7 +22,7 @@ int main()
 	{
 		cout<<"Name=";
 		cin.get();
-        cin.getline(patients[i].name,40);
+        	cin.getline(patients[i].name,40);
 		cout<<"Diagnose=";
 		cin>>patients[i].diagnose;
 		cout<<"Days=";
