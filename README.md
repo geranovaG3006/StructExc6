@@ -52,10 +52,10 @@ int main()
 			k=i;
 			
 		}
+	}
 			cout<<"Name="<<patients[k].name<<endl;
 			cout<<"Diagnose="<<patients[k].diagnose<<endl;
 			cout<<"Days="<<patients[k].days<<endl;
-	}
 	system("pause");
 	return 0;
 }
